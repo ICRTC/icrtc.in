@@ -1,0 +1,69 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Kolkata
+LAST-MODIFIED:20201011T015911Z
+TZURL:http://tzurl.org/zoneinfo-outlook/Asia/Kolkata
+X-LIC-LOCATION:Asia/Kolkata
+BEGIN:STANDARD
+TZNAME:IST
+TZOFFSETFROM:+0530
+TZOFFSETTO:+0530
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20221214T172817Z
+UID:1671038726404-80964@ical.marudot.com
+DTSTART;VALUE=DATE:20230310
+DTEND;VALUE=DATE:20230311
+SUMMARY:Paper Submission\, 10th  International Conference on Recent Trends in Computing (ICRTC-2022)\, SRM IST\, Delhi-NCR Campus.
+LOCATION:SRM IST\, Delhi-NCR Campus\, Delhi-Meerut Expressway\, Modinagar\, Uttar Pradesh-201204.
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Paper Submission, 10th  International Conference on Recent Trends in Computing (ICRTC-2022), SRM IST, Delhi-NCR Campus.
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20221214T172817Z
+UID:1671038775636-83320@ical.marudot.com
+DTSTART;VALUE=DATE:20230412
+DTEND;VALUE=DATE:20230413
+SUMMARY:Acceptance Notification\, 10th  International Conference on Recent Trends in Computing (ICRTC-2022)\, SRM IST\, Delhi-NCR Campus.
+LOCATION:SRM IST Delhi-NCR Campus Delhi - Meerut Road\, Modinagar\, Uttar Pradesh 201204
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Acceptance Notification, 10th  International Conference on Recent Trends in Computing (ICRTC-2022), SRM IST, Delhi-NCR Campus.
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20221214T172817Z
+UID:1671038809165-87038@ical.marudot.com
+DTSTART;VALUE=DATE:20230510
+DTEND;VALUE=DATE:20230511
+SUMMARY:Registration and Camera Ready\, 10th  International Conference on Recent Trends in Computing (ICRTC-2022)\, SRM IST\, Delhi-NCR Campus.
+LOCATION:SRM IST Delhi-NCR Campus Delhi - Meerut Road\, Modinagar\, Uttar Pradesh 201204
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Registration and Camera Ready, 10th  International Conference on Recent Trends in Computing (ICRTC-2022), SRM IST, Delhi-NCR Campus.
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20221214T172817Z
+UID:1671038843214-63654@ical.marudot.com
+DTSTART;VALUE=DATE:20230602
+DTEND;VALUE=DATE:20230604
+SUMMARY:Conference Date\, 10th  International Conference on Recent Trends in Computing (ICRTC-2022)\, SRM IST\, Delhi-NCR Campus.
+LOCATION:SRM IST Delhi-NCR Campus Delhi - Meerut Road\, Modinagar\, Uttar Pradesh 201204
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Conference Date, 10th  International Conference on Recent Trends in Computing (ICRTC-2022), SRM IST, Delhi-NCR Campus.
+TRIGGER:-P1D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
