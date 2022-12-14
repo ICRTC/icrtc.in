@@ -553,7 +553,15 @@ footer .subscribe a.yellow:hover{
     background: honeydew;
 }
 
+footer .copyright {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
 
+}
 
 
 
