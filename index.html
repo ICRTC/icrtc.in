@@ -30,8 +30,21 @@
           margin-left: 60px;
       }
   </style>
+  <style>
+    ::-moz-selection { /* Code for Firefox */
+      color: rgb(21, 21, 100);
+      background: #FDC93B;
+    }
+    
+    ::selection {
+      color: rgb(21, 21, 100);
+      background: #FDC93B;
+    }
+    </style>
 </head>
 <body>
+
+  
     
     <!--Navigation-->
     <nav>
@@ -453,9 +466,9 @@ Registration Deadline - 21st December, 2022:\n→ [url]https://github.com/add2ca
   <div class="footer-col">
     <h3>Contact Info</h3>
               <li>SRM Institute of Science and Technology, <br> Delhi-NCR Campus, <br> Ghaziabad, UP.</li>
-    <a href="mailto:icrtc.srmist@gmail.com" target="_blank" title="Click to send a mail"><li>icrtc.srmist@gmail.com</li></a>
+    <a style="text-decoration:none" href="mailto:icrtc.srmist@gmail.com" target="_blank" title="Click to send a mail"><li>icrtc.srmist@gmail.com</li></a>
     <li>+91 9865208017, +91 9354877129</li>
-    <a href="https://www.srmup.in/" target="_blank" title="Go to the website of SRM IST Delhi-NCR Campus"><li>Visit srmup.in</li></a>
+    <a style="text-decoration:none" href="https://www.srmup.in/" target="_blank" title="Go to the website of SRM IST Delhi-NCR Campus"><li>Visit srmup.in</li></a>
   </div>
 
   <div class="footer-col">
@@ -506,6 +519,7 @@ Registration Deadline - 21st December, 2022:\n→ [url]https://github.com/add2ca
     $('nav .navigation ul').removeClass('active')
   });
 </script>
+
 
 
 </body>
