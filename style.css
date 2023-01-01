@@ -1087,6 +1087,34 @@ footer .copyright {
   color: rgb(46, 46, 59);
 }
 
+/* Venue */
+
+#venue{
+
+  padding: 10vw 20vw 4vw 20vw;;
+  text-align: center;
+}
+
+#venue .abt-box{
+  padding: 4%;
+  border-radius: 10px;
+  background: azure;
+  text-align: justify;
+  box-shadow: 0 8px 32px 0 rgba(55, 60, 115, 0.37);
+  margin-top: 2vw;
+  transition: 0.5s ease-in-out;
+}
+
+#venue .abt-box:hover{
+  box-shadow: 0 20px 45px 0 rgba(0, 0, 4, 0.37);
+}
+
+
+#venue .abt-box h4{
+  font-size: 1 rem;
+  font-weight: 400;
+  color: rgb(46, 46, 59);
+}
 
 
 

@@ -13,7 +13,7 @@ function getBotResponse(input) {
         return "Yes, all delegates and speakers are able to get certificates at conference registration desk and are available anytime during the conference.";
     } else if (input == "I think I've paid twice, what should i do?") {
         return "Contact the respective conference secretary through email or you may directly contact at info@icrtc.net";
-    } else if (input == "I need an Invoice before I can paym what should I do?") {
+    } else if (input == "I need an Invoice before I can pay, what should I do?") {
         return "You can simply email to the respective conference secretary.";
     } else if (input == "What are the dates of the conferences?") {
         return "All conference details will be available on the corresponding conference website or for more details contact the respective conference coordinator.";
@@ -28,6 +28,10 @@ function getBotResponse(input) {
     }
     else if (input.includes("no confirmation")||input.includes("No confirmation")||input.includes("no mail")||input.includes("no email")) {
         let conf ="Once the payment has been received we will email you a registration acknowledgement. However we make every effort to do this as early as possible, so please bear with us, your patience is highly appreciated.";
+        return conf;
+    }
+    else if (input.includes("need an invoice")||input.includes("Need an Invoice")||input.includes("invoice")||input.includes("Invoice")) {
+        let conf ="You can check your mail inbox or you can simply email to the respective conference secretary.";
         return conf;
     }
 

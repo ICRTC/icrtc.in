@@ -42,6 +42,13 @@
     }
     </style>
 
+    <style>
+    #div1 {
+      font-size:40px;
+      
+    }
+    </style>
+
 
 <link rel="stylesheet" href="static/css/chat.css">
 <link rel="stylesheet" href="static/css/home.css">
@@ -67,7 +74,7 @@
                 <!-- <li><a href="#">Registration</a></li> -->
                 <li><a href="tech.html">Technical Session</a></li>
                 <li><a href="committee.html">Committee</a></li>
-                <!-- <li><a href="#">FAQ</a></li> -->
+                <li><a href="venue.html">Venue</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
             <img id="menu-btn" src="images/menu.png" alt="">
@@ -86,12 +93,29 @@
                 <p><br/></p>
                 <center>The Call For Paper procedure Will Be Posted Shortly!!</center> 
                 <p><br/></p>
+                <center> <div id="div1" class="fa"></div></center>
                 <p><br/></p>
             </h4>
     
         </div>
     </div>
 </section>
+
+<script>
+    function hourglass() {
+      var a;
+      a = document.getElementById("div1");
+      a.innerHTML = "&#xf251;";
+      setTimeout(function () {
+          a.innerHTML = "&#xf252;";
+        }, 1000);
+      setTimeout(function () {
+          a.innerHTML = "&#xf253;";
+        }, 2000);
+    }
+    hourglass();
+    setInterval(hourglass, 3000);
+    </script>
 
 <!-- Footer -->
 
@@ -113,7 +137,7 @@
     <li>Publication</li>
     </div>
 
-    <div class="footer-col">
+    <!-- <div class="footer-col">
     <h3>Useful Links</h3>
     <li>Research Pedia</li>
     <li>ARL</li>
@@ -121,7 +145,7 @@
     <li>Join a Member!</li>
     <li>Gallery</li>
     <li>Privacy Policy</li>
-    </div>
+    </div> -->
 
     <div class="footer-col">
     <h3>Newsletter</h3>

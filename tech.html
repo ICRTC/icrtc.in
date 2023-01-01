@@ -41,6 +41,12 @@
       background: #FDC93B;
     }
     </style>
+    <style>
+      #div1 {
+        font-size:40px;
+        
+      }
+      </style>
 
 
 <link rel="stylesheet" href="static/css/chat.css">
@@ -57,22 +63,22 @@
     <!--Navigation-->
     <nav>
       <a href="index.html"><img src="images/logo.png" alt="SRMIST DELHI-NCR Campus"></a>
-        <div class="navigation">
-            <ul>
-              <i id="menu-close" class="fas fa-times"></i>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="call.html">Call for Paper</a></li>
-                <li><a href="index.html#date1">Paper Submission</a></li>
-                <!-- <li><a href="#">Registration</a></li> -->
-                <li><a href="tech.html">Technical Session</a></li>
-                <li><a href="committee.html">Committee</a></li>
-                <!-- <li><a href="#">FAQ</a></li> -->
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-            <img id="menu-btn" src="images/menu.png" alt="">
-        </div>
-    </nav>
+      <div class="navigation">
+          <ul>
+            <i id="menu-close" class="fas fa-times"></i>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="call.html">Call for Paper</a></li>
+              <li><a href="index.html#date1">Paper Submission</a></li>
+              <!-- <li><a href="#">Registration</a></li> -->
+              <li><a href="tech.html">Technical Session</a></li>
+              <li><a href="committee.html">Committee</a></li>
+              <li><a href="venue.html">Venue</a></li>
+              <li><a href="contact.html">Contact</a></li>
+          </ul>
+          <img id="menu-btn" src="images/menu.png" alt="">
+      </div>
+  </nav>
 
 
     <!-- Get In Touch-->
@@ -86,12 +92,30 @@
                 <p><br/></p>
                 <center>The Technical Session Will Be Posted Shortly!!</center> 
                 <p><br/></p>
+                <center><div id="div1" class="fa"></div></center>
+                
                 <p><br/></p>
             </h4>
     
         </div>
     </div>
 </section>
+
+<script>
+  function hourglass() {
+    var a;
+    a = document.getElementById("div1");
+    a.innerHTML = "&#xf251;";
+    setTimeout(function () {
+        a.innerHTML = "&#xf252;";
+      }, 1000);
+    setTimeout(function () {
+        a.innerHTML = "&#xf253;";
+      }, 2000);
+  }
+  hourglass();
+  setInterval(hourglass, 3000);
+  </script>
 
 <!-- Footer -->
 
@@ -104,14 +128,14 @@
   <a style="text-decoration:none" href="https://www.srmup.in/" target="_blank" title="Go to the website of SRM IST Delhi-NCR Campus"><li>Visit srmup.in</li></a>
   </div>
 
-  <div class="footer-col">
+  <!-- <div class="footer-col">
   <h3>Quick Links</h3>
   <li><a href="about.html">About Us</a></li>
   <li><a href="index.html#registration">Registration</a></li>
   <li><a href="index.html#date1">Paper Submission</a></li>
   <li><a href="tech.html">Technical Session</a></li>
   <li>Publication</li>
-  </div>
+  </div> -->
 
   <div class="footer-col">
   <h3>Useful Links</h3>
