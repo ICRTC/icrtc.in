@@ -110,7 +110,7 @@ nav .navigation ul  li a:hover{
 }
 
 #home h2{
-    color: aliceblue;
+    color: white;
     font-size: 2.4rem;
     letter-spacing: 2px;
     margin-top: 7vw;
@@ -121,7 +121,7 @@ nav .navigation ul  li a:hover{
 }
 
 #home h3{
-    color: rgb(227, 242, 255);
+    color: white;
     width: fit-content;
     padding-top: 4vw;
     font-size: 1.95rem;
@@ -131,7 +131,7 @@ nav .navigation ul  li a:hover{
 }
 
 #home h4{
-    color: rgb(227, 242, 255);
+    color: white;
     padding-top: 4vw;
     font-size: 1.6rem;
     letter-spacing: 1px;
@@ -483,7 +483,7 @@ box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 
 /* Keynote Speakers */
 #key{
-  padding: 4vw 22vw 4vw 22vw;
+  padding: 4vw 20vw 4vw 20vw;
   text-align: center;
   /* margin-bottom: 2vw; */
   
@@ -651,8 +651,59 @@ box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   text-align: justify;
   padding: 1vw;
 
+  transition: 2s ease-in-out;
 }
 
+#conf .speakers:hover{
+  box-shadow: 0 20px 45px 0 rgba(0, 0, 4, 0.37);
+
+
+}
+
+
+/* DOs and DON'Ts */
+#conf1{
+  padding: 4vw 20vw 4vw 20vw;
+  text-align: center;
+
+  /* margin-bottom: 2vw; */
+  
+}
+
+#conf1 .speakers-box{
+  padding: 3%;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1.5rem;
+  margin-top: 20px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  transition: 0.5s ease-in-out;
+
+}
+
+#conf1 .speakers-box:hover{
+  box-shadow: 0 20px 45px 0 rgba(0, 0, 4, 0.37);
+
+
+}
+
+#conf1 .speakers{
+  border-radius: 50px;
+  text-align: center;
+  background:azure;
+  height: 100%;
+  text-align: justify;
+  padding: 1vw;
+
+  transition: 2s ease-in-out;
+}
+
+#conf1 .speakers:hover{
+  box-shadow: 0 20px 45px 0 rgba(0, 0, 4, 0.37);
+
+
+}
 
 /* Downloads */
 

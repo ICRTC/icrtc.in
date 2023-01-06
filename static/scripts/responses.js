@@ -54,6 +54,14 @@ function getBotResponse(input) {
         let book ="<a href='index.html#key'>" + "Head to Keynote Speakers section on the Home Page" + "</a>";
         return book;
     }
+    else if (input.includes("submission")||input.includes("Submission")||input.includes("submit")||input.includes("Submit")) {
+        let submit ="<a href='index.html#date1'>" + "Head to Paper Submission section on the Home Page" + "</a>";
+        return submit;
+    }
+    else if (input.includes("dos and donts")||input.includes("dos and don'ts")||input.includes("Dos and donts")||input.includes("Dos and Donts")||input.includes("Dos and Don'ts")) {
+        let submit ="<a href='index.html#conf1'>" + "Head to DOs and DON'Ts section on the Home Page" + "</a>";
+        return submit;
+    }
     else if (input.includes("no confirmation")||input.includes("No confirmation")||input.includes("no mail")||input.includes("no email")) {
         let conf ="Once the payment has been received we will email you a registration acknowledgement. However we make every effort to do this as early as possible, so please bear with us, your patience is highly appreciated.";
         return conf;
@@ -97,7 +105,7 @@ function getBotResponse(input) {
         return "Mr. Samriddha Basu";
     
     }
-    else if (input.includes("chod") || input.includes("Chod")) {
+    else if (input.includes("chod") || input.includes("Chod") || input.includes("Chutiya") || input.includes("chutiya") || input.includes("Fuck") || input.includes("fuck") || input.includes("fcuk") || input.includes("Bitch") || input.includes("bitch")) {
         return "Sorry!! I won't respond to that.";
 
     }else if (input.includes("Who are you") || input.includes("who are you")) {
