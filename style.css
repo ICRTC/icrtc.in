@@ -251,13 +251,13 @@ nav .navigation ul  li a:hover{
 
 #date{
   list-style:none;
-  padding: 4vw 35% 4vw 35%;
+  padding: 4vw 30% 4vw 30%;
   text-align: center;
 }
 
 #date  .lis{
   padding-left: 2vw;
-  text-align: justify;
+  text-align: center;
 
 }
 #date .abt-box{
@@ -743,13 +743,13 @@ box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 
 #date1{
   list-style:none;
-  padding: 4vw 35% 4vw 35%;
+  padding: 4vw 30% 4vw 30%;
   text-align: center;
 }
 
 #date1  .lis{
   padding-left: 2vw;
-  text-align: justify;
+  text-align:center;
 
 }
 #date1 .abt-box{
