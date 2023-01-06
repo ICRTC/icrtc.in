@@ -243,7 +243,30 @@ nav .navigation ul  li a:hover{
   color: rgb(46, 46, 59);
 }
 
-
+#aboutpg a{
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding:13px 35px;
+  background-color: honeydew;
+  font-weight: 600;
+  border-radius: 5px;
+  }
+  
+  #aboutpg .btn{
+  margin: 30px 0 30px 0;
+  }
+  
+  #aboutpg a.blue{
+  color:rgb(21, 21, 100);
+  background: #FDC93B;
+  transition: 0.5s ease-in-out;
+  }
+  
+  #aboutpg a.blue:hover{
+  color:#FDC93B;
+  background: rgb(21, 21, 100);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  }
 
 
 
@@ -498,7 +521,7 @@ box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   grid-gap: 1.5rem;
   margin-top: 20px;
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  transition: 1.5s ease-in-out;
+  transition: 0.5s ease-in-out;
   align-items: center;
 
 }
@@ -513,7 +536,7 @@ box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   background:azure;
   height: 100%;
   align-items: center;
-  transition: 0.5s ease-in-out;
+  transition: 2s ease-in-out;
 }
 
 #key .speakers:hover{
@@ -584,7 +607,7 @@ box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   background:azure;
   height: 100%;
   align-items: center;
-  transition: 0.5s ease-in-out;
+  transition: 2s ease-in-out;
 }
 
 #key1 .speakers:hover{
@@ -1156,6 +1179,86 @@ footer .copyright {
   font-size: 1rem;
   line-height:  25px;
 } */
+
+
+/* PprSubHome */
+
+#PprSubHome{
+    
+  background-image: linear-gradient(rgba(7, 5, 34, 0.3), rgba(0, 0, 0, 0.7)),url("images/back3.jpeg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 40px;
+}
+
+#PprSubHome h2{
+  color: aliceblue;
+  font-size: 2.4rem;
+  letter-spacing: 2px;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  text-shadow: 10px 20px 30px rgba(0, 0, 49, 0.37);
+
+}
+
+#PprSubHome h3{
+  color: rgb(227, 242, 255);
+  width: 50%;
+  padding-top: 4vw;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  line-height:  40px;
+  text-shadow: 10px 20px 30px rgba(0, 0, 49, 0.37);
+}
+
+#PprSubHome h4{
+  color: rgb(227, 242, 255);
+  padding-top: 4vw;
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  line-height:  50px;
+  text-shadow: 10px 20px 30px rgba(0, 0, 49, 0.37);
+}
+
+#PprSubHome a{
+  text-decoration: none;
+  font-size: 0.9rem;
+  padding:13px 35px;
+  background-color: honeydew;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+#PprSubHome .btn{
+  margin-top: 30px;
+}
+
+#PprSubHome a.blue{
+  color:rgb(21, 21, 100);
+  background: #FDC93B;
+  transition: 0.5s ease-in-out;
+}
+
+#PprSubHome a.blue:hover{
+  color:#FDC93B;
+  background: rgb(21, 21, 100);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+/* #PprSubHome p{
+  width: 50%;
+  color: rgb(227, 242, 255);
+  font-size: 1rem;
+  line-height:  25px;
+} */
+
+
 
 
 /* Get in Touch */
