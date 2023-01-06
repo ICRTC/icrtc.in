@@ -77,7 +77,7 @@ function getBotResponse(input) {
     } else if (input.includes("goodbye")||input.includes("Goodbye")) {
         return "Until the next time!!";
     }
-    else if (input.includes("well")||input.includes("fine")||input.includes("Well")||input.includes("Fine")||input.includes("good")||input.includes("Good")||input.includes("kya hal hai")||input.includes("Kya hal hai")) {
+    else if (input.includes("well")||input.includes("fine")||input.includes("Well")||input.includes("Fine")||input.includes("good")||input.includes("Good")||input.includes("kya hal hai")||input.includes("Kya hal haiqw")) {
         return "Great!! Ask me anything.";
     }
     else if (input.includes("not well")||input.includes("not fine")||input.includes("Not well")||input.includes("Not fine")||input.includes("not good")||input.includes("Not Good")) {
@@ -96,6 +96,10 @@ function getBotResponse(input) {
     }else if (input.includes("Who made you") || input.includes("who made you")) {
         return "Mr. Samriddha Basu";
     
+    }
+    else if (input.includes("chod") || input.includes("Chod")) {
+        return "Sorry!! I won't respond to that.";
+
     }else if (input.includes("Who are you") || input.includes("who are you")) {
         return "Your assistant 😎, how can I help you?";
     
