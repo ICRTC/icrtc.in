@@ -18,7 +18,7 @@ function getBotResponse(input) {
     } else if (input == "What are the dates of the conferences?") {
         return "All conference details will be available on the corresponding conference website or for more details contact the respective conference coordinator.";
     }
-    else if (input.includes("date")||input.includes("Date")||input.includes("tareek")) {
+    else if (input.includes("date")||input.includes("Date")||input.includes("tareek")||input.includes("when is the event")) {
         let date ="<a href='index.html#date'>" + "Head to Important Dates section on the Home Page" + "</a>";
         return date;
     }
@@ -46,20 +46,16 @@ function getBotResponse(input) {
         let about ="<a href='contact.html'>" + "Head to Contact Page" + "</a>";
         return about;
     }
-    else if (input.includes("book")||input.includes("Book")||input.includes("register")||input.includes("Register")) {
-        let book ="<a href='index.html#registration'>" + "Head to Registration section on the Home Page" + "</a>";
-        return book;
-    }
     else if (input.includes("speakers")||input.includes("Speakers")||input.includes("keynote")||input.includes("Keynote")) {
-        let book ="<a href='index.html#key'>" + "Head to Keynote Speakers section on the Home Page" + "</a>";
-        return book;
+        let speakers ="<a href='index.html#key'>" + "Head to Keynote Speakers section on the Home Page" + "</a>";
+        return speakers;
     }
-    else if (input.includes("submission")||input.includes("Submission")||input.includes("submit")||input.includes("Submit")) {
-        let submit ="<a href='index.html#date1'>" + "Head to Paper Submission section on the Home Page" + "</a>";
+    else if (input.includes("submission")||input.includes("Submission")||input.includes("submit")||input.includes("Submit")||input.includes("book")||input.includes("Book")||input.includes("register")||input.includes("Register")||input.includes("Fee details")||input.includes("fee details")||input.includes("Fee Details")||input.includes("Cancellation Policy")||input.includes("cancellation policy")||input.includes("Fee inclusion")||input.includes("fee inclusion")||input.includes("included in fee")||input.includes("Included in fee")||input.includes("Guidlines")||input.includes("guidlines")) {
+        let submit ="<a href='PaperSub.html'>" + "Head to Paper Submission Page" + "</a>";
         return submit;
     }
     else if (input.includes("dos and donts")||input.includes("dos and don'ts")||input.includes("Dos and donts")||input.includes("Dos and Donts")||input.includes("Dos and Don'ts")) {
-        let submit ="<a href='index.html#conf1'>" + "Head to DOs and DON'Ts section on the Home Page" + "</a>";
+        let submit ="<a href='PaperSub.html#conf1'>" + "Head to DOs and DON'Ts section on the Paper Submission Page" + "</a>";
         return submit;
     }
     else if (input.includes("no confirmation")||input.includes("No confirmation")||input.includes("no mail")||input.includes("no email")) {
