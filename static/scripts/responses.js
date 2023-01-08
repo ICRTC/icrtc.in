@@ -84,8 +84,8 @@ function getBotResponse(input) {
     else if (input.includes("well")||input.includes("fine")||input.includes("Well")||input.includes("Fine")||input.includes("good")||input.includes("Good")||input.includes("kya hal hai")||input.includes("Kya hal haiqw")) {
         return "Great!! Ask me anything.";
     }
-    else if (input.includes("not well")||input.includes("not fine")||input.includes("Not well")||input.includes("Not fine")||input.includes("not good")||input.includes("Not Good")) {
-        return "Please take care. btw Ask me anything.";
+    else if (input.includes("not well")||input.includes("not fine")||input.includes("Not well")||input.includes("Not fine")||input.includes("not good")||input.includes("Not Good")||input.includes("Bad")||input.includes("bad")) {
+        return "Please take care. Btw, Ask me anything.";
     }
     else if (input.includes("hi")||input.includes("Hi")) {
         return "Hi, there!";
