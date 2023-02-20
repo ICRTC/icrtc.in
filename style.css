@@ -41,14 +41,20 @@ nav{
     flex-direction: row;
     justify-content: space-between;
     align-items:center;
-    padding: 1vw 8vw;
+    padding: 0.4vw 8vw;
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
     z-index: 999;
 }
 
-nav img{
-    width: 170px;
+nav .img1{
+  width: 170px;
     cursor: pointer;
+
+}
+
+nav .img2{
+  width: 170px;
+  cursor: pointer;
 
 }
 
@@ -69,6 +75,8 @@ nav .navigation{
 nav .navigation ul{
     display: flex;
     justify-content: flex-end;
+    margin-right: 155px;
+    margin-top: 19px;
 }
 
 nav .navigation ul li{
@@ -645,6 +653,131 @@ box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 #key1 .alignment{
   text-align: justify;
 }
+
+/* Chief Patrons */
+#key2{
+  padding: 4vw 20vw 4vw 20vw;
+  text-align: center;
+  /* margin-bottom: 2vw; */
+  
+}
+
+#key2 .speakers-box{
+
+  padding: 4%;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 320px 320px;
+  grid-template-rows: 320px 350px;
+  grid-gap: 1.5rem;
+  margin-top: 20px;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  transition: 0.5s ease-in-out;
+  align-items:center;
+
+}
+
+#key2 .speakers-box:hover{
+  box-shadow: 0 20px 45px 0 rgba(0, 0, 4, 0.37);
+}
+
+
+
+#key2 .speakers{
+  border-radius: 50px;
+  text-align: center;
+  background:azure;
+  height: 100%;
+  align-items: center;
+  transition: 2s ease-in-out;
+}
+
+#key2 .speakers:hover{
+  box-shadow: 0 20px 45px 0 rgba(0, 0, 4, 0.37);
+
+
+}
+
+#key2 .speakers img{
+  align-items: center;
+  border-radius: 50%;
+  padding: 6%;
+  width:50%;
+  height: 65%;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+#key2 .speakers .details{
+  padding: 0.5vw;
+  
+}
+
+#key2 .speakers .details .h6{
+  font-size: 1rem;
+  font-weight: 300;  
+}
+
+#key2 .alignment{
+  text-align: justify;
+}
+
+
+#key2 .speakersTRP{
+  grid-column: 1/3;
+  border-radius: 50px;
+  margin-left:270px;
+  text-align: center;
+  background:azure;
+  height: 100%;
+  align-items: center;
+  transition: 2s ease-in-out;
+}
+
+#key2 .speakersTRP:hover{
+  box-shadow: 0 20px 45px 0 rgba(0, 0, 4, 0.37);
+
+
+}
+
+#key2 .speakersTRP img{
+  align-items: center;
+  border-radius: 50%;
+  padding: 6%;
+  width:50%;
+  height: 65%;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+#key2 .speakersTRP .details{
+  padding: 0.5vw;
+  
+}
+
+#key2 .speakersTRP .details .h6{
+  font-size: 1rem;
+  font-weight: 300;  
+}
+
+#key2 .alignment{
+  text-align: justify;
+}
+
+
+#key2 .speakersP{
+  border-radius: 50px;
+  text-align: center;
+  background:azure;
+  height: 100%;
+  align-items: center;
+  transition: 2s ease-in-out;
+}
+
 
 
 
