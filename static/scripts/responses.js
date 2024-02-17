@@ -19,10 +19,14 @@ function getBotResponse(inp) {
     } else if (input == "what are the dates of the conferences?") {
         return "All conference details will be available on the corresponding conference website or for more details contact the respective conference coordinator.";
     }
-    else if (input.includes("date")||input.includes("tareek")||input.includes("when is the event")||input.includes("when is event")) {
+    else if (input.includes("date")||input.includes("tareek")||input.includes("when is the event")||input.includes("when is event")||input.includes("kab")) {
         let date ="<a href='index.html#date'>" + "Head to Important Dates section on the Home Page" + "</a>";
         return date;
     }
+    else if (input.includes("when")||input.includes("kab")&&input.includes("event")) {
+        let date ="<a href='index.html#date'>" + "Head to Important Dates section on the Home Page" + "</a>";
+        return date;
+    }    
     else if (input.includes("about")||input.includes("baare mein")) {
         let about ="<a href='about.html'>" + "Head to About Page" + "</a>";
         return about;
